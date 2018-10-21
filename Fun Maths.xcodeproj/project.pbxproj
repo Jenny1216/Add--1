@@ -12,6 +12,8 @@
 		173D067221711D7A00E0A886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173D067021711D7A00E0A886 /* Main.storyboard */; };
 		173D067421711D7B00E0A886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173D067321711D7B00E0A886 /* Assets.xcassets */; };
 		173D067721711D7B00E0A886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173D067521711D7B00E0A886 /* LaunchScreen.storyboard */; };
+		1757DF92217BF60500A30D90 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1757DF91217BF60500A30D90 /* HVD_Comic_Serif_Pro.otf */; };
+		8BE04155CF72A95857DA2DBE /* Pods_Fun_Maths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3246638FE3C073A8A6A061E /* Pods_Fun_Maths.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,11 @@
 		173D067321711D7B00E0A886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173D067621711D7B00E0A886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		173D067821711D7B00E0A886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1757DF90217BC07000A30D90 /* Add 1 bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Add 1 bridging.h"; sourceTree = "<group>"; };
+		1757DF91217BF60500A30D90 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
+		4DB8E9665E66EDD93FCF60A6 /* Pods-Fun Maths.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fun Maths.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fun Maths/Pods-Fun Maths.debug.xcconfig"; sourceTree = "<group>"; };
+		9662CD0C068FE8CF91483969 /* Pods-Fun Maths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fun Maths.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fun Maths/Pods-Fun Maths.release.xcconfig"; sourceTree = "<group>"; };
+		B3246638FE3C073A8A6A061E /* Pods_Fun_Maths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fun_Maths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE04155CF72A95857DA2DBE /* Pods_Fun_Maths.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +46,11 @@
 		173D066021711D7A00E0A886 = {
 			isa = PBXGroup;
 			children = (
+				1757DF90217BC07000A30D90 /* Add 1 bridging.h */,
 				173D066B21711D7A00E0A886 /* Fun Maths */,
 				173D066A21711D7A00E0A886 /* Products */,
+				8D7E5E49E1CA4B714D67C7F8 /* Pods */,
+				88F9C72AAE553FC205299107 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,64 @@
 		173D066B21711D7A00E0A886 /* Fun Maths */ = {
 			isa = PBXGroup;
 			children = (
-				173D066C21711D7A00E0A886 /* AppDelegate.swift */,
-				173D066E21711D7A00E0A886 /* ViewController.swift */,
-				173D067021711D7A00E0A886 /* Main.storyboard */,
-				173D067321711D7B00E0A886 /* Assets.xcassets */,
-				173D067521711D7B00E0A886 /* LaunchScreen.storyboard */,
+				173D067F21712E2800E0A886 /* View */,
+				173D067E21712E1200E0A886 /* Model */,
+				173D068021712E3000E0A886 /* Controller */,
+				173D06812171312C00E0A886 /* Supporting FIles */,
 				173D067821711D7B00E0A886 /* Info.plist */,
 			);
 			path = "Fun Maths";
+			sourceTree = "<group>";
+		};
+		173D067E21712E1200E0A886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		173D067F21712E2800E0A886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				173D067021711D7A00E0A886 /* Main.storyboard */,
+				173D067321711D7B00E0A886 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		173D068021712E3000E0A886 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				173D066C21711D7A00E0A886 /* AppDelegate.swift */,
+				173D066E21711D7A00E0A886 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		173D06812171312C00E0A886 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				1757DF91217BF60500A30D90 /* HVD_Comic_Serif_Pro.otf */,
+				173D067521711D7B00E0A886 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		88F9C72AAE553FC205299107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3246638FE3C073A8A6A061E /* Pods_Fun_Maths.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7E5E49E1CA4B714D67C7F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB8E9665E66EDD93FCF60A6 /* Pods-Fun Maths.debug.xcconfig */,
+				9662CD0C068FE8CF91483969 /* Pods-Fun Maths.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 173D067B21711D7B00E0A886 /* Build configuration list for PBXNativeTarget "Fun Maths" */;
 			buildPhases = (
+				C9892A1089F4C152724DB8FB /* [CP] Check Pods Manifest.lock */,
 				173D066521711D7A00E0A886 /* Sources */,
 				173D066621711D7A00E0A886 /* Frameworks */,
 				173D066721711D7A00E0A886 /* Resources */,
+				DEE165D3AE870E78A76751EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +187,51 @@
 			files = (
 				173D067721711D7B00E0A886 /* LaunchScreen.storyboard in Resources */,
 				173D067421711D7B00E0A886 /* Assets.xcassets in Resources */,
+				1757DF92217BF60500A30D90 /* HVD_Comic_Serif_Pro.otf in Resources */,
 				173D067221711D7A00E0A886 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9892A1089F4C152724DB8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fun Maths-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE165D3AE870E78A76751EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fun Maths/Pods-Fun Maths-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fun Maths/Pods-Fun Maths-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		173D066521711D7A00E0A886 /* Sources */ = {
@@ -280,9 +383,11 @@
 		};
 		173D067C21711D7B00E0A886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB8E9665E66EDD93FCF60A6 /* Pods-Fun Maths.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDXAZPK6JS;
 				INFOPLIST_FILE = "Fun Maths/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +395,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jenny.Fun-Maths";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Add 1 bridging.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +403,11 @@
 		};
 		173D067D21711D7B00E0A886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9662CD0C068FE8CF91483969 /* Pods-Fun Maths.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDXAZPK6JS;
 				INFOPLIST_FILE = "Fun Maths/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jenny.Fun-Maths";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Add 1 bridging.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
