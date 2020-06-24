@@ -159,6 +159,7 @@
 				TargetAttributes = {
 					173D066821711D7A00E0A886 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -396,7 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jenny.Fun-Maths";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Add 1 bridging.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -416,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jenny.Fun-Maths";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Add 1 bridging.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
